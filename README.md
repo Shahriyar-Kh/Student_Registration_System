@@ -57,7 +57,7 @@ Student_Registration_sys/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/Student_Registration_System.git
+   git clone https://github.com/Shahriyar-Kh/Student_Registration_System.git
    cd Student_Registration_System
    ```
 
