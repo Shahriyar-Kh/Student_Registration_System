@@ -4,7 +4,8 @@ A **Student Registration System** built with **Python (Tkinter GUI)** that allow
 
 This application is useful for small institutes, schools, or demo projects where maintaining student records digitally is required.
 
----
+<img width="960" height="504" alt="Dashboard" src="https://github.com/user-attachments/assets/82e7d061-bda4-4cc2-a656-499fc2d52b90" />
+
 
 ## 🚀 Features
 
@@ -89,11 +90,7 @@ xlrd
 
 ---
 
-## 📸 Screenshots (Optional)
 
-> *(You can add screenshots of your UI here after running the project)*
-
----
 
 ## 🧑‍💻 Author
 
