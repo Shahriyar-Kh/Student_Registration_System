@@ -1,104 +1,53 @@
-# 📘 Student Registration System (SRS)
+# Student Registration System — Python / Tkinter
 
-A **Student Registration System** built with **Python (Tkinter GUI)** that allows you to manage student data, save it into **Excel (xlsx)**, and upload student profile pictures.  
+A desktop student-record application built with **Python, Tkinter, openpyxl, xlrd, and Pillow**.
 
-This application is useful for small institutes, schools, or demo projects where maintaining student records digitally is required.
+## Features
 
-<img width="960" height="504" alt="Dashboard" src="https://github.com/user-attachments/assets/82e7d061-bda4-4cc2-a656-499fc2d52b90" />
+- student registration data entry
+- generated registration numbers
+- student search and update
+- profile image upload
+- Excel workbook persistence
+- parent/student detail capture
+- Tkinter desktop interface
 
+## Technology Stack
 
-## 🚀 Features
+Python · Tkinter · openpyxl · xlrd · Pillow
 
-- 📋 **Student Data Entry**  
-  Register students with details such as name, class, gender, date of birth, religion, skills, and parents' details.
+## Repository Structure
 
-- 🖼️ **Profile Picture Upload**  
-  Upload and save each student’s photo in a separate folder.
-
-- 🔎 **Search & Update**  
-  Search students by registration number and update their details.
-
-- 💾 **Excel Integration**  
-  Automatically saves student data in `Student_data.xlsx`.
-
-- 🔐 **Auto Registration Number**  
-  Auto-increments registration numbers for each new entry.
-
-- 🎨 **Modern Tkinter GUI**  
-  Simple, clean, and user-friendly interface.
-
----
-
-## 🛠️ Tech Stack
-
-- **Python 3.x**
-- **Tkinter** (GUI framework)
-- **Pillow** (for handling images)
-- **openpyxl** (for Excel integration)
-- **xlrd** (for reading Excel files)
-
----
-
-## 📂 Project Structure
-
-```
-Student_Registration_sys/
-│-- images/                # Icons and UI images (search, upload, update buttons)
-│-- SRS_Pics/              # Uploaded student profile pictures
-│-- Student_data.xlsx      # Generated Excel file containing student data
-│-- SRS.py                 # Main application script
-│-- requirements.txt       # Dependencies
-│-- README.md              # Project documentation
+```text
+Student_Registration_System/
+├── SRS.py
+├── SRS-requirements.txt
+├── Student_data.xlsx
+├── images/
+└── screenshots/
 ```
 
----
+## Run Locally
 
-## ⚙️ Installation & Setup
+```bash
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Shahriyar-Kh/Student_Registration_System.git
-   cd Student_Registration_System
-   ```
-
-2. **Create virtual environment (recommended)**
-   ```bash
-   python -m venv venv-SRS
-   source venv-SRS/Scripts/activate   # On Windows (PowerShell)
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the application**
-   ```bash
-   python SRS.py
-   ```
-
----
-
-## 📦 Requirements
-
-Add these to your `requirements.txt`:
-```txt
-pillow
-openpyxl
-xlrd
+pip install -r SRS-requirements.txt
+python SRS.py
 ```
 
----
+## Engineering Focus
 
+This project demonstrates desktop form workflows, file-based persistence, image handling, search/update behavior, and GUI event handling.
 
+It is retained as evidence of earlier Python desktop development alongside the newer full-stack projects on this GitHub profile.
 
-## 🧑‍💻 Author
+## Author
 
-**Shahriyar Khan**  
-📧 Email: shahriyarkhanpk1@gmail.com  
+**Shahriyar Khan** — Software Engineer · Full-Stack Python Developer
 
----
-
-## 📜 License
-
-This project is open-source and available under the **MIT License**.
+- Portfolio: https://shahriyarkhan.com
+- GitHub: https://github.com/Shahriyar-Kh
+- LinkedIn: https://www.linkedin.com/in/shahriyar-khan-developer/
